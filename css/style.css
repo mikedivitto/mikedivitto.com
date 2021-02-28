@@ -1,0 +1,87 @@
+body {
+   background-color: #FDFDFD;
+   font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+}
+
+.header-desc {
+   text-align: center;
+}
+
+h2, h3 {
+   font-family: 'Raleway', sans-serif;
+   text-align: left;
+}
+
+p {
+   text-align: left;
+}
+
+.topn li {
+   border-top: 1px solid grey;
+}
+
+.topn li:last-child {
+   border-bottom: 1px solid grey;
+}
+
+.topn li a {
+   font-weight: lighter;
+}
+
+.tooltip {
+   position: fixed;
+   z-index: 1;
+   font-size: 16px;
+}
+
+.navbtn {
+   margin-left: 10px;
+}
+
+.navbar-left {
+   height: 100%;
+   width: 60px;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: black;
+   overflow-x: hidden;
+   padding-top: 12px;
+}
+
+.navbar-left ul li {
+   width: 100%;
+   text-align: center;
+   font-size: 25px;
+}
+
+.navbar-left ul li a {
+   color: #CCCCCC;
+}
+
+.container {
+   padding-left: 70px;
+   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+   .container {
+      padding: 0px 25px 20px 15px;;
+   }
+}
+
+.nav li {
+   font-size: 1.5em !important;
+}
+
+/*
+.container-fluid {
+   margin-left: 70px;
+}
+*/
